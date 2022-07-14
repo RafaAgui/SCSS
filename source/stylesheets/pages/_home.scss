@@ -1,0 +1,20 @@
+.home-page{
+    background-color: $background-DarkRed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    @include for-laptop{
+        background-color: $bg-orange;
+    }
+
+    @include for-tablet{
+        background-color: $bg-green;
+    }
+
+    @include for-phone{
+        background-color: $bg-blue;
+    }
+}

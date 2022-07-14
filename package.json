@@ -1,0 +1,20 @@
+{
+  "name": "vector",
+  "version": "1.0.0",
+  "description": "Instlación prueba RAA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass source/stylesheets/index.scss build/stylesheets/index.css"
+  },
+  "keywords": [],
+  "author": "Rafael Aguilar",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "instalacion_sass"
+  },
+  "dependencies": {
+    "sass": "^1.53.0"
+  }
+}
